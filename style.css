@@ -1,9 +1,69 @@
-.foto{
-    height: 500px;
-    width: 800px;
+body{
+    background-image: url(imagens/Sem\ título.png);   
+    background-repeat: no-repeat;
+    background-size: cover  ;
 }
 
-.primeira{
+
+
+nav{
+    background-color: rgb(152, 152, 152);
+    height: 70px;
+    align-items: center;
     display: flex;
-    flex-direction: row;
+    margin: -8px;
+    
 }
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 190px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;    
+    left: 400px;
+    position: relative;
+}
+
+.logo{
+    margin-left: -1300px;
+    position: relative;
+}
+
+main{
+    top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text1{
+    background-color: aliceblue;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.text1 img{
+    top: 130px;
+    position: relative;
+    right: 115px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.text1 h1{
+    position: relative;
+    left: 190px;
+    height: 200px;
+}
+
+a:hover{
+    color: black;
+}
+
