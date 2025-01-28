@@ -1,4 +1,4 @@
-body{
+.body1{
     background-image: url(imagens/Sem\ título.png);   
     background-repeat: no-repeat;
     background-size: cover  ;
@@ -67,3 +67,45 @@ a:hover{
     color: black;
 }
 
+form{
+    background-color: white;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    position: relative;
+    right: 168px;
+}
+
+form input{
+    width: 370px;
+    position: relative;
+    left: 10px;
+}
+
+.senha{
+    padding-top: 10px;
+}
+
+form button{
+    position: relative;
+    top: 10px;
+    width: 120px;
+    left: 267px;
+}
+
+.login{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.body2{
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+}

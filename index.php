@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Minhas Férias</title>
 </head>
-<body>
+<body class="body1">
     <nav>
         <a href="">Home</a>
         <a href="https://www.youtube.com/">Youtube</a>
