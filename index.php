@@ -1,3 +1,8 @@
+<?php
+    include('conexao.php');
+    include('validarSessao.php');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

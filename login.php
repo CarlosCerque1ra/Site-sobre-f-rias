@@ -10,7 +10,9 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0){
-        $_SESSION['email'] = $email;
+        $usuario = $result->fetch_assoc();
+
+        $_SESSION['usuario'] = $usuario;
         header('Location: index.php');
     } else{
         $error = "Email ou senha invalidos";
