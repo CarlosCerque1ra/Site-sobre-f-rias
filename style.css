@@ -109,3 +109,18 @@ form button{
     justify-content: center;
     background-color: darkcyan;
 }
+
+
+form p{
+    background-color: white;
+    border-radius: 10px;
+    align-self: center;
+    padding: 10px;
+    position: relative;
+    right: 100px;
+    bottom: 35px;
+    color: red;
+
+}
+
+

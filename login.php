@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
                 <label for="senha" class="senha">Senha:</label>
                 <input type="password" name="senha" require>
                 <button type="submit" style="margin_bottom: 30px;">Entrar</button>
-                <?php if (isset($error)) echo "<p class='message error'>$error</p>"; ?>
+                <?php if (isset($error)) echo "<p class='erro'>$error</p>"; ?>
             </form>
         </div>
     </main>
