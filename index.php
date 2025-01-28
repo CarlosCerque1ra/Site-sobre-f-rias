@@ -12,6 +12,7 @@
         <a href="https://www.youtube.com/">Youtube</a>
         <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fhl%3Dpt-BR&emr=1&hl=pt-BR&ifkv=AVdkyDkQJHjeie-AhY8HkLmfx09a1d8MZRKmc4g7tcgVf1cek40Bqprj6PMLqRlNu5lTu7x3tiNwgw&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1695356136%3A1738063200814822&ddm=1">Email</a>
         <a href="https://www.rihappy.com.br/" target="_blank"><img src="imagens/logo.webp" alt="logo" height="60px" class="logo"></a>
+        <a href="logout.php">Sair</a>
     </nav>
    
     <main>
